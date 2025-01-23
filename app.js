@@ -1,4 +1,4 @@
-/*let numeroSecreto = 0;
+let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
@@ -73,16 +73,4 @@ function reiniciarJuego() {
     
 }
 
-condicionesIniciales(); */
-
-function promedio(lista) {
-  let suma = 0;
-  for (let i = 0; i < lista.length; i++) {
-    suma += lista[i];
-  }
-  return suma / lista.length;
-}
-
-let arrayNumeros = [10, 5, 15, 20, 25];
-let calculo = promedio(arrayNumeros);
-console.log("Promedio es:", calculo);
+condicionesIniciales();
